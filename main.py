@@ -7,4 +7,4 @@ def home():
     return render_template("indexi.html")
 
 if __name__ == "__main__":
-    app.run(debug=True, port=0.0.0.0)
+    app.run(debug=False)
