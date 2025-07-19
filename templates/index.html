@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar"></html>
+
+<head>
+    <style>
+    /* Blue text for sub-titles (no circle) */
+    .subtitle-blue {
+    color: #2B4EA0 !important; /* UHA's blue (adjust if needed) */
+    font-size: 1.2em; /* Smaller than main title */
+    margin-bottom: 1rem; /* Spacing */
+    font-weight: bold; /* Optional: makes it stand out */
+    /* Explicitly reset circle-related styles */
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+    }
+    /* Add this to your existing style section */
+    .content p {
+        font-size: 22px; /* Adjust this value as needed */
+        line-height: 2; /* Improves readability */ 
+    }
+
+    /* If you want headings to be proportionally larger too */
+    .content h1, .content h2, .content h3 {
+        font-size: 2.0em; /* Adjust as needed */
+    }
+    </style>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Change title for each page -->
+    <title>Page Title | UHA University</title>
+    <meta property="og:title" content="UHA University" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://www.uha.edu.eu/assets/favicon.ico" />
+    <meta name="twitter:image:src" content="https://www.uha.edu.eu/assets/favicon.ico" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:title" content="UHA University" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="UHA International University" />
+    <link rel="icon" type="image/png" href="https://www.uha.edu.eu/assets/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://www.uha.edu.eu/storage/uploads/images/image_17252752071868765153.jpg" />
+    <meta name="p:domain_verify" content="f6d1357f525151bd5bfa033c4805d97e"/>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/animate.min.css" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/swiper.min.css" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/main.css" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/toastr.min.css">
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/custome.css?v=" />
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/new-style.css">
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/main-en.css">
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/new-style-en.css">
+    <link rel="stylesheet" href="https://www.uha.edu.eu/assets/front/css/special-style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- WhatsApp floating button styles -->
+    <style>
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+        right:40px;
+    }
+    .my-float{
+        margin-top:16px;
+    }
+    .selected {
+        background-color: #f0f0f0;
+        font-weight: bold;
+    }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4DKNJVTV5B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4DKNJVTV5B');
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WBCJ8G92');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBCJ8G92"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- begin:: Page -->
+    <div class="main-wrapper">
+        <div class="mobile-menu-overlay"></div>
+        <div class="loader-page"><span></span><span></span></div>
+
+        <!-- start:: Header -->
+        <header class="main-header">
+            <div class="">
+                <div class="top-header">
+                    <div class="container justify-content-between" style="margin-bottom: 10px">
+                        <div class="logo me-lg-4">
+                            <a href="https://www.uha.edu.eu"><img src="https://www.uha.edu.eu/storage/uploads/images/image_17252752071868765153.jpg"
+                                    alt="UHA University" loading="lazy" />
+                            </a>
+                        </div>
+                        <div class="search-box flex-fill secon-border py-2 rounded-3 px-1 hide-sm">
+                            <span class="mx-2">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+                                        stroke="#2B4EA0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M22 22L20 20" stroke="#2B4EA0" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <input class="w-100" id="depSearch" type="search" name="search" placeholder="أبحث هنا...">
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="menu-container col-auto ms-auto">
+                                <ul class="main-menu d-flex align-items-center p-1 p-lg-0">
+                                    <li class="menu_item mx-1 my-2 my-lg-0">
+                                        <a class="sign-btn font-bold"
+                                            href="https://www.uha.edu.eu/en/login">تسجيل الدخول</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-mobile__toolbar d-lg-none fa-lg"><i class="fa-solid fa-bars-sort pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-header">
+                    <div class="menu--mobile mx-lg-auto flex-column">
+                        <div class="container text-center">
+                            <div
+                                class="menu-container d-flex align-items-center justify-content-between d-lg-none px-3 border-bottom py-2 mb-3">
+                                <div class="logo"><a href="https://www.uha.edu.eu/en/courses/exams"><img
+                                            src="https://www.uha.edu.eu/storage/uploads/images/image_17252752071868765153.jpg" alt=""
+                                            loading="lazy" /></a>
+                                </div>
+                                <div class="btn-close-header-mobile justify-content-end"><i class="fa-regular fa-xmark"></i>
+                                </div>
+                            </div>
+                            <div class="menu-container">
+                                <ul class="main-menu">
+                                    <li class="menu_item">
+                                        <div class="d-flex align-items-center">
+                                            <a class="menu_link " href="https://www.uha.edu.eu">الرئيسية</a>
+                                        </div>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a class="menu_link">
+                                            عن الجامعة
+                                            <i onclick='showSubMenu(this)' class='fa-regular fa-chevron-down ms-2 fa-xs'></i>
+                                        </a>
+                                        <ul class="main submenu">
+                                            <li class="menu_item">
+                                                <div class="d-flex align-items-center">
+                                                    <a class="menu_link" href="https://www.uha.edu.eu/pages/mission_vision">Mission And Vision</a>
+                                                </div>
+                                            </li>
+                                            <!-- Other about university menu items -->
+                                        </ul>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a class="menu_link ">
+                                            الكليات و الاقسام
+                                            <i onclick='showSubMenu(this)' class='fa-regular fa-chevron-down ms-2 fa-xs'></i>
+                                        </a>
+                                        <ul class="main submenu">
+                                            <!-- Colleges and departments menu items -->
+                                        </ul>
+                                    </li>
+                                    <li class="menu_item">
+                                        <div class="d-flex align-items-center">
+                                            <a class="menu_link " href="https://www.uha.edu.eu/ar/blog">المجلة العلمية</a>
+                                        </div>
+                                    </li>
+                                    <li class="menu_item">
+                                        <div class="d-flex align-items-center">
+                                            <a class="menu_link " href="https://www.uha.edu.eu/contact-us">تولصل معنا</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end:: Header -->
+        
+        <script>
+            document.getElementById('depSearch').addEventListener('keypress', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    var searchText = event.target.value;
+                    window.location.href = "https://www.uha.edu.eu/departments?search=" + encodeURIComponent(searchText);
+                }
+            });
+
+            let activeClickMenu = null;
+            let activeHoverMenu = null;
+
+            function openClickSubmenu(menuItem, submenu, chevron) {
+                menuItem.classList.add('active');
+                submenu.style.display = 'block';
+                chevron.style.transform = 'rotate(180deg)';
+                activeClickMenu = menuItem;
+            }
+
+            // Other menu handling functions...
+        </script>
+
+        <div class="postion-fixed fixed-social hide-sm">
+            <ul class="d-flex flex-column">
+                <li>
+                    <a href="https://www.facebook.com/UHAUNIVERSITY" target="_blank">
+                        <i class="fa-brands fa-facebook"> </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/uha_university" target="_blank">
+                        <i class="fa-brands fa-twitter"> </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/uhauniversity" target="_blank">
+                        <i class="fa-brands fa-instagram"> </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@UHA-University" target="_blank">
+                        <i class="fa-brands fa-youtube"> </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- MAIN CONTENT SECTION - REPLACE THIS FOR EACH PAGE -->
+        <main id="main-content">
+            <!-- start:: section -->
+            <section class="mission-vision-page wow fadeInUp" data-wow-delay="0.1s">
+                <div class="hero-section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-10 mb-5">
+                                <ol class="breadcrumb mb-0">
+                                    <li class="breadcrumb-item">
+                                        <a class="text-white" href="https://www.uha.edu.eu">
+                                            <span>
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M24.5 8.16659V19.8333C24.5 23.3333 22.75 25.6666 18.6667 25.6666H9.33333C5.25 25.6666 3.5 23.3333 3.5 19.8333V8.16659C3.5 4.66659 4 3.5 7 3.5H17C21 3.5 22.5 5 24.5 8.16659Z"
+                                                        stroke="white" stroke-miterlimit="10" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M16.917 5.25V7.58333C16.917 8.86667 17.967 9.91667 19.2503 9.91667H21.5837"
+                                                        stroke="white" stroke-miterlimit="10" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M9.33301 15.1667H13.9997" stroke="white" stroke-miterlimit="10"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M9.33301 19.8333H18.6663" stroke="white" stroke-miterlimit="10"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumb-item text-white active">Page Title</li>
+                                </ol>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-4">
+                                <div class="text">
+                                    <h1 class="font-bold text-white title">عنوان الصفحة</h1>
+                                    <p>العنوان الثاني للصفحة</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container section-padding">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="content">
+                                <h2 class="mb-4 font-bold title-section title-sm">عنوان المحتوى الاساسي</h2>
+                                <div class="mb-5">
+                                    <!-- INSERT YOUR PAGE CONTENT HERE -->
+                                    <div class="content">
+                                        <!-- New sub-title (no circle, just blue text) -->
+                                        <h3 class="subtitle-blue">هنا عنوان ثاني</h3>
+                                        <p>هنا المحتوى</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end:: section -->
+        </main>
+
+        <!-- start:: footer -->
+        <footer class="main-footer">
+            <a href="https://api.whatsapp.com/send?phone=905055566619" class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row pt-8 mb-2 mb-lg-5">
+                        <div class="col-3 m-auto">
+                            <div class="text-center">
+                                <div class="mb-2"><img class="footer-logo"
+                                        src="https://www.uha.edu.eu/storage/uploads/images/image_17260569482087325682.png"
+                                        alt="UHA University" loading="lazy" /></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="row justify-content-evenly">
+                                <div class="col-lg-4 border-end my-auto mb-4">
+                                    <address class="mb-2 mx-2">
+                                        <span><i class="fa-solid fa-location-dot fa-lg"></i></span>
+                                        العنوان : 
+                                    </address> 
+                                    <p class="mb-2">
+                                        <span class="mx-2">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                                    fill="white" />
+                                                <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001"
+                                                    fill="white" />
+                                                <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001"
+                                                    stroke="#2B4EA0" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M15 3C16.95 8.84 16.95 15.16 15 21V3Z" fill="white" />
+                                                <path d="M15 3C16.95 8.84 16.95 15.16 15 21" stroke="#2B4EA0" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" fill="white" />
+                                                <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" stroke="#2B4EA0"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M3 9.0001C8.84 7.0501 15.16 7.0501 21 9.0001H3Z" fill="white" />
+                                                <path d="M3 9.0001C8.84 7.0501 15.16 7.0501 21 9.0001" stroke="#2B4EA0"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-white"><a  class="text-white" href="UHA.EDU.EU">UHA.EDU.EU</a></span>
+                                    </p>
+                                    <p class="mb-2 text-white">
+                                        <span class="mx-2">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z"
+                                                    fill="white" stroke="#2B4EA0" stroke-width="1.5" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9"
+                                                    fill="white" />
+                                                <path d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9"
+                                                    stroke="#2B4EA0" stroke-width="1.5" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                        البريد الالكترونى  : info@uha.edu.eu 
+                                    </p>
+                                    <p class="mb-2 text-white">
+                                        <span class="mx-2">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.97 16.33C19.97 16.69 19.89 17.06 19.72 17.42C19.55 17.78 19.33 18.12 19.04 18.44C18.55 18.98 18.01 19.37 17.4 19.62C16.8 19.87 16.15 20 15.45 20C14.43 20 13.34 19.76 12.19 19.27C11.04 18.78 9.89 18.12 8.75 17.29C7.6 16.45 6.51 15.52 5.47 14.49C4.44 13.45 3.51 12.36 2.68 11.22C1.86 10.08 1.2 8.94 0.72 7.81C0.24 6.67 0 5.58 0 4.54C0 3.86 0.12 3.21 0.36 2.61C0.6 2 0.98 1.44 1.51 0.94C2.15 0.31 2.85 0 3.59 0C3.87 0 4.15 0.0600001 4.4 0.18C4.66 0.3 4.89 0.48 5.07 0.74L7.39 4.01C7.57 4.26 7.7 4.49 7.79 4.71C7.88 4.92 7.93 5.13 7.93 5.32C7.93 5.56 7.86 5.8 7.72 6.03C7.59 6.26 7.4 6.5 7.16 6.74L6.4 7.53C6.29 7.64 6.24 7.77 6.24 7.93C6.24 8.01 6.25 8.08 6.27 8.16C6.3 8.24 6.33 8.3 6.35 8.36C6.53 8.69 6.84 9.12 7.28 9.64C7.73 10.16 8.21 10.69 8.73 11.22C9.27 11.75 9.79 12.24 10.32 12.69C10.84 13.13 11.27 13.43 11.61 13.61C11.66 13.63 11.72 13.66 11.79 13.69C11.87 13.72 11.95 13.73 12.04 13.73C12.21 13.73 12.34 13.67 12.45 13.56L13.21 12.81C13.46 12.56 13.7 12.37 13.93 12.25C14.16 12.11 14.39 12.04 14.64 12.04C14.83 12.04 15.03 12.08 15.25 12.17C15.47 12.26 15.7 12.39 15.95 12.56L19.26 14.91C19.52 15.09 19.7 15.3 19.81 15.55C19.91 15.8 19.97 16.05 19.97 16.33Z"
+                                                    fill="white" />
+                                                <path d="M16.5 7C16.5 6.4 16.03 5.48 15.33 4.73C14.69 4.04 13.84 3.5 13 3.5"
+                                                    fill="white" />
+                                                <path d="M20 7C20 3.13 16.87 0 13 0L20 7Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                        الهاتف : 12067047858+
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div>
+                                        <h5 class="text-white fw-bold mb-3">كن اول المتلقيين لكل جديد لدينا</h5>
+                                        <p class="text-color-muted mb-3">
+                                        اشترك معنا عبر البريد الإلكتروني لتتلقى كل جديد
+                                        </p>
+                                        <input type="email" name="email" class="form-control newsletter" placeholder="Email">
+                                        <span class="success-msg"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom border-top pt-5">
+                <div class="container">
+                    <div class="d-flex justify-content-md-between justify-content-center align-items-center flex-column flex-md-row">
+                        <div class="">
+                            <ul class="link-footer font-bold d-flex gap-3 flex-wrap">
+                                <li><a class="text-color-third" href="https://www.uha.edu.eu/ar/pages/terms_and_conditions">الشروط والأحكام</a></li>
+                                <li><a class="text-color-third" href="https://www.uha.edu.eu/ar/pages/privacy_policy">سياسة الخصوصية</a></li>
+                                <li><a class="text-color-third" href="https://www.uha.edu.eu/ar/pages/about">من نحن</a></li>
+                                <li><a class="text-color-third" href="https://www.uha.edu.eu/ar/pages/gov_aff">الحوكمة الجامعية وشؤون الطلاب</a></li>
+                                <li><a class="text-color-third" href="https://www.uha.edu.eu/ar/pages/Board_Trustees">مجلس الأمناء</a></li>
+                                <li><a class="text-color-third" href="https://www.uha.edu.eu/documents_check">التحقق من المستندات</a></li>
+                            </ul>
+                        </div>
+                        <p class="text-end text-color-third">
+                            جميع الحقوق محفوظة لـ جامعة الطموح العالي UHA© 2024
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end:: footer -->
+    </div>
+    <!-- end:: Page -->
+
+    <!-- JavaScript Files -->
+    <script src="https://www.uha.edu.eu/assets/front/js/jquery.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/bootstrap-select.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/wow.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/swiper.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/jquery.fancybox.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/function.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/jqueryValidate.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/sweetalert2.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/custom_en.sweet.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/toastr.min.js"></script>
+    <script src="https://www.uha.edu.eu/assets/front/js/main.js"></script>
+
+    <script>
+        $(window).on('popstate', function() {
+            location.reload(true);
+        });
+
+        $(document).on('click', '.show-alert', function() {
+            var msg = $(this).data('msg');
+            var alert_type = $(this).data('alert_type');
+            customSweetAlert(alert_type, "", msg, function(event) {});
+        });
+    </script>
+
+    <script>
+        jQuery.extend(jQuery.validator.messages, {
+            required: "This field is required",
+            remote: "Please make sure to check this field to proceed",
+            email: "Please enter a valid email address",
+            url: "Please enter a valid URL",
+            date: "Please enter a valid date",
+            dateISO: "Please enter a valid date (ISO)",
+            number: "Please enter a valid number",
+            digits: "Please enter digits only.",
+            creditcard: "Please enter a valid credit card number",
+            equalTo: "Please enter the same value again",
+            accept: "validator.accept",
+            maxlength: jQuery.validator.format("The maximum number of characters is {0} "),
+            minlength: jQuery.validator.format("The minimum number of characters is {0} "),
+            rangelength: jQuery.validator.format("The number of characters must be between {0} and {1}."),
+            range: jQuery.validator.format("Please enter a value between {0} and {1}."),
+            max: jQuery.validator.format("Please enter a value less than or equal to {0}."),
+            min: jQuery.validator.format("Please enter a value greater than or equal to {0}.")
+        });
+
+        window.are_your_sure = "Are you sure?";
+        window.confirm_text = "Confirm";
+        window.cancel_text = "Cancel";
+        window.initialCountry = "tr";
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-messaging-compat.js" type="text/javascript"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js" type="text/javascript"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-functions-compat.js" type="text/javascript"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCV40NBKT5wBipNfY3Lmmd7KyPdOcD7vfA",
+            authDomain: "laravel-chat-7638b.firebaseapp.com",
+            databaseURL: "https://laravel-chat-7638b-default-rtdb.firebaseio.com",
+            projectId: "laravel-chat-7638b",
+            storageBucket: "laravel-chat-7638b.appspot.com",
+            messagingSenderId: "355479155427",
+            appId: "1:355479155427:web:75bf251a49566a0bcc8bd6"
+        };
+
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <div id="load" style="display: none;"><img id="loading-image"
+            src="https://www.uha.edu.eu/assets/front/images/ajax-loader.gif" loading="lazy"/><br></div>
+    <script src="https://uha.v2202410238393291338.hotsrv.de/webchat/embed/85fb4c70-1398-44fa-82d3-25ca99f58cac/"></script>
+</body>
+</html>
+
